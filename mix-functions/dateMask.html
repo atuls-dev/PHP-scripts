@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MASK</title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://unpkg.com/imask"></script>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+
+var element = document.getElementById('dateMasksnd');
+var maskOptions = {
+mask: Date,
+   min: new Date(1990, 0, 1),
+   max: new Date(2050, 0, 1),
+   lazy: false,
+   pattern: 'Y-m-d',
+   dateFormat:"Y-m-d"
+
+};
+var mask = IMask(element, maskOptions);
+})
+</script>
+</head>
+<body>
+<br />
+<input type="text" name="" id="dateMasksnd">
+https://unmanner.github.io/imaskjs/
+</body>
+</html>

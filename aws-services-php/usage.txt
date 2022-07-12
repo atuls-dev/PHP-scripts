@@ -1,0 +1,1 @@
+# Install composer dependencies require AWS php sdk

@@ -1,0 +1,19 @@
+[02-Sep-2021 10:07:30 UTC] PHP Fatal error:  Uncaught ImagickException: Invalid pseudo format string in /home1/landmp6q/public_html/99projects.in/imagick/test5.php:27
+Stack trace:
+#0 /home1/landmp6q/public_html/99projects.in/imagick/test5.php(27): Imagick->newpseudoimage(1018.8, 339.6, '')
+#1 {main}
+  thrown in /home1/landmp6q/public_html/99projects.in/imagick/test5.php on line 27
+[03-Sep-2021 11:10:40 UTC] PHP Fatal error:  Uncaught ImagickException: Can not process empty Imagick object in /home1/landmp6q/public_html/99projects.in/imagick/index.php:27
+Stack trace:
+#0 /home1/landmp6q/public_html/99projects.in/imagick/index.php(27): Imagick->setimageunits(1)
+#1 {main}
+  thrown in /home1/landmp6q/public_html/99projects.in/imagick/index.php on line 27
+[03-Sep-2021 12:24:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setOption() on null in /home1/landmp6q/public_html/99projects.in/imagick/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/landmp6q/public_html/99projects.in/imagick/index.php on line 34
+[03-Sep-2021 12:26:22 UTC] PHP Fatal error:  Uncaught ImagickException: unable to write pixel cache `/tmp/magick-965099XYUE18CVnvxS': No space left on device @ error/cache.c/WritePixelCachePixels/5985 in /home1/landmp6q/public_html/99projects.in/imagick/index.php:37
+Stack trace:
+#0 /home1/landmp6q/public_html/99projects.in/imagick/index.php(37): Imagick->newpseudoimage(305640, 101880, 'caption:hello t...')
+#1 {main}
+  thrown in /home1/landmp6q/public_html/99projects.in/imagick/index.php on line 37

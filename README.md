@@ -1,2 +1,2 @@
 # PHP-scripts
-Usefull short scripts created
+Usefull short scripts of PHP, Javascript, Jquery & MySQL
